@@ -1,0 +1,117 @@
+.container {
+  position: relative;
+  width: 300px;
+  height: 450px;
+  margin-left: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.heading p {
+  display: inline-block;
+}
+
+.heading p:first-child {
+  text-align: center;
+  padding: 6px;
+  margin-left: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: #ff3399;
+  border-radius: 999px;
+}
+
+.heading p:last-child {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.boding {
+  position: absolute;
+  left: 28px;
+  width: 80%;
+  height: 72%;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.boding p:nth-child(odd) {
+  width: 80%;
+  padding: 3%;
+  border-radius: 5px;
+  background-color: #f8f8ff;
+}
+
+.boding p:nth-child(even) {
+  position: relative;
+  left: 15%;
+  width: 80%;
+  padding: 3%;
+  border-radius: 5px;
+  color: white;
+  background-color: #ff3399;
+}
+
+.footing {
+  position: absolute;
+  bottom: 5%;
+}
+
+.footing input {
+  height: 20px;
+  width: 150px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+.footing button {
+  cursor: pointer;
+  border: none;
+  font-size: 15px;
+  margin-left: 40px;
+  margin-top: 20px;
+  padding: 8px;
+  border-radius: 10px;
+  background-color: #ff3399;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.products {
+  margin: 20px;
+  text-align: center;
+  height: 150px;
+  width: 200px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.phone-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.phone-container .phones {
+  margin: 10px;
+  border: 1px solid #ccc;
+}
+
+.phone-container .phone {
+  padding: 10px;
+}
+
+.phone-container .phone-price {
+  color: #008000;
+}
+
+.phone-container .phone-reduce-price {
+  color: #ff0052;
+}
+
+.phone-container .phone-coupon {
+  color: #eea4f5;
+}
